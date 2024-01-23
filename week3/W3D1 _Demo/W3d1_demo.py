@@ -1,23 +1,27 @@
-#Mohammed Malek
-#SE126
-#Lab 2B
-#You have been asked to produce a report that lists all the computers in the csv file lab2b.csv. Your report should look like the following sample output. The last line should print the number of computers in the file. Organization of the csv file:
+#w3d1 demo text file handling & storing to ID lists
 
-
-#importing csv to read file
 import csv
+#total counter for all records
+totalRecords = 0
 
-#initiliazing total records variable to 0
-totalrecords = 0
+ListCompType = []
+ListBrand = []
+ListProcessor = []
+ListRam = []
+ListFirstDisk = []
+ListNumOfHdd = []
+ListSecondDisk = []
+ListOperatingSystem = []
+ListCompType = []
+ListYear = []
+
 #opening csv file
 with open("week2/hw/lab2b.csv") as csvfile:
     #reading the file
     file = csv.reader(csvfile)
-  #priting the header
-    print(f"{'compType':10} {'brand':10} {'processor':10}{'ram':10}{'firstDisk':10}{'numOfHdd':10}{'secondDisk':20}{'operatingSystem':25}{'year':25}")
   #for loop to go through each row in the file
     for rec in file:
-        #checking what type of computer is it
+#checking what type of computer is it
         if rec[0] == "D":
             compType = "Desktop"
         elif rec[0] == "L":
@@ -49,9 +53,17 @@ with open("week2/hw/lab2b.csv") as csvfile:
             operatingSystem = rec[6]
             year = rec[7]
 
-        #final printed message for each machine
-        print(f"{compType:10} {brand:10} {processor:10}{ram:10}{firstDisk:10}{numOfHdd:10}{secondDisk:20}{operatingSystem:25}{year:25}")
+        totalRecords += 1
+        ListCompType.append(compType)
+        ListBrand.append(brand)
+        ListProcessor.append(processor)
+        ListRam.append(ram)
+        ListFirstDisk.append(firstDisk)
+        ListNumOfHdd.append(numOfHdd)
+        ListSecondDisk.append(secondDisk)
+        ListOperatingSystem.append(operatingSystem)
+        ListYear.append(year)
+#----- DISCONNECTED FROM FILE--------------------------------------
 
-        totalrecords += 1
-#displaying the total number of records
-print(f"\nTotal Records: {totalrecords}")
+for i in range(0,totalRecords):
+       print(f"{ListCompType[i]:10} {ListBrand[i]:10} {ListProcessor[i]:10}{ListRam[i]:10}{ListFirstDisk[i]:10}{ListNumOfHdd[i]:10}{ListSecondDisk[i]:20}{ListOperatingSystem[i]:25}{ListYear[i]:25}") 
