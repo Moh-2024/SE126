@@ -13,7 +13,7 @@ ListVoted = []
 
 import csv
 
-with open("voters_202040.csv") as csvfile:
+with open("week3/w3-Lab3/voters_202040.csv") as csvfile:
   file = csv.reader(csvfile)
 
   print("Welcome to the program! ")

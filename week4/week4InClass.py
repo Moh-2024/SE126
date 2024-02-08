@@ -1,3 +1,6 @@
+#Mohammed Malek
+#Lab 3 In class 
+#Write a program that reads the data file (below) and stores the data into 1D parallel lists (remember, one list for every field).
 
 import csv
 
