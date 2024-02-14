@@ -1,5 +1,12 @@
 #Mohammed Malek
-#
+#SE126 Midterm project 
+#This is a this trivia program. This program lets user choose the given category and displays 5 random question.
+#It uses text files to determine the category and questions.
+#variable dictionary: lists - Questions, options, answer, results
+#random set of lists - selectedQ, selectedA, selectedO
+#counter variable- score
+#while loop- number
+#-----------------------------------------------------------------------------------------------------------------
 
 
 import csv
