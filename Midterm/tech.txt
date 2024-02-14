@@ -1,0 +1,13 @@
+What technology is used to record cryptocurrency transactions?,Digital Wallet,Blockchain,Token,B
+What tool would you use to reduce the digital image size?,Filter,Rotate,Crop,C
+What kind of malware is designed to take advantage of a security hole before it is known?,Zero-day exploit,Virus,Trojan horse,A
+Making a compressed digital archive might produce what type of file format?,PDF,Zip,Mp3,B
+What does acronym FOSS stand for?,Free and Open-Source Software,Follow-On Support Service,Fiber Optics Science System,A
+What technology is used to make telephone calls over the Internet possible?,Bluetooth,NFC,VoIP,C
+What is the term for text that automatically continues from one line to the next?,Word processing,Word Wrapping,Word binding,B
+What does it mean to uncloud?,Organize cloud storage,Print a file from the cloud,Delete a cloud service account,A
+Which computer language is the most widely used?,C#,PHP,Java,C
+Approximately how much data exists in the digital universe today?,2.7 terabytes,2.7 zetabytes,2.7 gigabytes,B
+Which tech buzzword is closely related to Artificial Intelligence (AI)?,Virtual reality,Machine Learning,Microservices,B
+Which of the following is an important step towards the paperless concept?,Digitizing,Debugging,Downloading,A
+What was the first cross-platform PDF software?,Nitro Pro,Foxit PhantomPDF,Able2Extract Professional,C
